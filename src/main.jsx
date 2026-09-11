@@ -38,7 +38,7 @@ function App() {
     <main id="main" className="page-shell mx-auto">
       <div className="page-heading">
         <div className="journey-label flex items-center gap-2"><span /> Un objectif. Un accompagnement rien que pour vous.</div>
-        <h1>COACHING <b translate="no" className="notranslate">"INSIDE"</b> <span>— ONE TO ONE</span></h1>
+        <h1>COACHING <b translate="no" className="notranslate">"INSIDE"</b> <span>— ONE to ONE</span></h1>
         <p className="heading-subtitle">1 mois pour vous transformer et passer à l’action.</p>
       </div>
 
