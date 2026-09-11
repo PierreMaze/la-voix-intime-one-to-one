@@ -1,4 +1,4 @@
-# COACHING "INSIDE" ONE-TO-ONE
+# COACHING "INSIDE" ONE TO ONE
 
 Page de paiement autonome en React, Tailwind CSS v4 et Vite. Direction artistique reprise du programme « Le Trésor des 9 Portes » : ivoire, bleu profond, touches dorées, logo La Voix Intime et typographie adaptée aux écrans desktop et 2K.
 

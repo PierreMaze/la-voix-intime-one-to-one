@@ -38,18 +38,18 @@ function App() {
     <main id="main" className="page-shell mx-auto">
       <div className="page-heading">
         <div className="journey-label flex items-center gap-2"><span /> Un objectif. Un accompagnement rien que pour vous.</div>
-        <h1>COACHING <b translate="no" className="notranslate">"INSIDE"</b> <span>— ONE-TO-ONE</span></h1>
+        <h1>COACHING <b translate="no" className="notranslate">"INSIDE"</b> <span>— ONE TO ONE</span></h1>
         <p className="heading-subtitle">1 mois pour vous transformer et passer à l’action.</p>
       </div>
 
       <div className="content-grid grid items-start">
         <div className="journey-content min-w-0">
           <picture className="hero-picture block overflow-hidden">
-            <img className="block w-full" src={`${import.meta.env.BASE_URL}images/coaching-inside-four-weeks.jpeg`} alt="COACHING &quot;INSIDE&quot; ONE-TO-ONE : une porte bleu profond, une clé dorée et un espace chaleureux ouvert sur la mer au coucher du soleil." width="1600" height="903" fetchPriority="high" />
+            <img className="block w-full" src={`${import.meta.env.BASE_URL}images/coaching-inside-four-weeks.jpeg`} alt="COACHING &quot;INSIDE&quot; ONE TO ONE : une porte bleu profond, une clé dorée et un espace chaleureux ouvert sur la mer au coucher du soleil." width="1600" height="903" fetchPriority="high" />
           </picture>
           <section className="journey-description" aria-labelledby="journey-title">
             <div className="section-title flex items-center gap-3"><span className="little-star" aria-hidden="true">✧</span><h2 id="journey-title">Un mois intensif ! Vous et moi ! Activez votre TRANSFORMATION !</h2></div>
-            <p><strong className="offer-name">COACHING <span translate="no" className="notranslate">"INSIDE"</span></strong> <span translate="no" className="notranslate">ONE-TO-ONE</span> est un accompagnement <strong>100 % individuel sur 4 semaines</strong>, conçu pour travailler en profondeur sur votre objectif et créer des changements concrets dans votre vie.</p>
+            <p><strong className="offer-name">COACHING <span translate="no" className="notranslate">"INSIDE"</span></strong> <span translate="no" className="notranslate">ONE TO ONE</span> est un accompagnement <strong>100 % individuel sur 4 semaines</strong>, conçu pour travailler en profondeur sur votre objectif et créer des changements concrets dans votre vie.</p>
             <p className="experience-line">Pas de théorie supplémentaire :<br className="mobile-break" /> vous expérimentez, vous ressentez, vous agissez.</p>
             <div className="practices flex flex-wrap" aria-label="Les pratiques de l’accompagnement">
               {['Jeux', 'Défis', 'Expériences', 'Pratiques'].map(item => <span key={item}>{item}</span>)}
@@ -74,7 +74,7 @@ function App() {
           <p className="redirect-note">Vous serez redirigé vers PayPal pour finaliser votre inscription et votre paiement.</p>
         </aside>
       </div>
-      <footer className="site-footer flex items-center justify-between gap-4"><span>La Voix Intime</span><p>COACHING <span translate="no" className="notranslate">"INSIDE"</span> — ONE-TO-ONE</p><span className="footer-symbol" aria-hidden="true">✧</span></footer>
+      <footer className="site-footer flex items-center justify-between gap-4"><span>La Voix Intime</span><p>COACHING <span translate="no" className="notranslate">"INSIDE"</span> — ONE TO ONE</p><span className="footer-symbol" aria-hidden="true">✧</span></footer>
     </main>
     <div className="mobile-payment"><div><strong>460 €</strong><span>1 mois, 100 % individuel</span></div><PaymentButton compact /></div>
   </>
