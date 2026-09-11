@@ -49,7 +49,7 @@ function App() {
           </picture>
           <section className="journey-description" aria-labelledby="journey-title">
             <div className="section-title flex items-center gap-3"><span className="little-star" aria-hidden="true">✧</span><h2 id="journey-title">Un mois intensif ! Vous et moi ! Activez votre TRANSFORMATION !</h2></div>
-            <p><strong className="offer-name">COACHING <span translate="no" className="notranslate">"INSIDE"</span></strong> <span translate="no" className="notranslate">ONE TO ONE</span> est un accompagnement <strong>100 % individuel sur 4 semaines</strong>, conçu pour travailler en profondeur sur votre objectif et créer des changements concrets dans votre vie.</p>
+            <p><strong className="offer-name">COACHING <span translate="no" className="notranslate">"INSIDE"</span></strong> est un accompagnement <strong>100 % individuel sur 4 semaines</strong>, conçu pour travailler en profondeur sur votre objectif et créer des changements concrets dans votre vie.</p>
             <p className="experience-line">Pas de théorie supplémentaire :<br className="mobile-break" /> vous expérimentez, vous ressentez, vous agissez.</p>
             <div className="practices flex flex-wrap" aria-label="Les pratiques de l’accompagnement">
               {['Jeux', 'Défis', 'Expériences', 'Pratiques'].map(item => <span key={item}>{item}</span>)}
